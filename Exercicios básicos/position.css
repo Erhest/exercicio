@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 100px;
+}
+.a{
+    background-color: aliceblue;
+}
+
+.a .ab{
+    display: block;
+    border: 2px solid purple;   
+    background-color: gray;}
+.b{
+    background-color: green;
+}
+.b .bc{
+    display: inline;
+    border: 2px solid plum;    
+    background-color: gray;
+}
+.c{
+    background-color: palegoldenrod;
+}
+.c .cd{
+    display: inline-block;
+    border: 2px solid royalblue;    
+    background-color: gray;
+}
+.d{
+    background-color: aquamarine;
+}
+.d .de{
+    display: none;
+    border: 2px solid peru;    
+    background-color: gray;
+}

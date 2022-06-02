@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: Arial;
+    list-style: none;
+ }
+ a{
+     text-decoration: none;
+     color: white;
+ }
+ .termos{
+     text-decoration: underline;     
+ }
+ .termos:hover{
+    cursor: pointer;    
+ } 
+ a:hover{
+     color: rgb(50, 190, 7);    
+ }
+ header{
+     width: auto;
+     height: 80px;
+     display: flex;
+     background-color: black;
+     color: white;
+     align-items: center;
+     justify-content: space-between;
+ }
+ header .img-1{
+     padding: 20px 19%;
+     height: 40px;
+ }
+ header .img-1 img{
+     width: 135px;
+     height: 40px;
+     cursor: pointer;
+ }
+ header .head-1{
+     display: flex;
+     margin-right: 20%;
+     gap: 34px;
+     font-weight: bold;
+     font-size: 15px;     
+ }
+ header .head-1 div{
+     border-left: 1px solid white;
+     height: 18px;
+ }
+
+ /* fim do header*/
+
+ .list-question{
+     background-color: rgb(22, 126, 211); /* rgb(16, 125, 214)*/
+     width: auto;
+     height: 327px;
+     padding: 20px 20%;
+     color: white;
+     text-align: left;     
+ }
+ .list-question h1{
+     font-size: 38px;
+     margin-top: 5%;
+     margin-bottom: 35px;       
+ }
+ .list-question h3{
+     font-size: 15px;     
+     margin-bottom: 35px; 
+     font-size: 20px;    
+ }
+ .list-question button{
+    width: 100%;
+    border-radius: 110px;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 15px;
+    margin-right: 5px;
+ }
+ .list-question .black-button{
+     width: 150px;
+     background-color: rgb(24, 22, 22);
+     border: 2px solid black;
+     padding: 16px;        
+ }
+ .list-question .black-button:hover{    
+    cursor: pointer;     
+    transform: scale(1.05);
+    background-color: black;    
+ }
+ .list-question .transparent-button{
+    width: 160px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 16px;
+    font-size: 15px;
+    border: 2px solid white;    
+ }
+ .list-question .transparent-button:hover{
+    cursor: pointer;     
+    transform: scale(1.05);    
+ }
+ .list-question .user-example{
+    margin-top: 50px;
+    font-size: 11px;    
+ }
+ .list-question .user-example a{
+  color: white;
+  }
+
+/* list-question final*/
+
+ .list-plan{           
+    background-color: white;
+    width: auto;
+    height: 500px;
+ }
+ section .primeiro-h h1{
+     text-align: center;
+     margin-top: 75px;
+     font-size: 40px;
+     font-weight: bold;
+ }
+ section .list-cards{
+    display: flex;
+    gap: 40px;    
+    padding: 20px 20%;
+    margin-left: 20px;
+    margin-top: 35px;
+    text-align: center;
+ }
+ section .list-cards h3{
+    padding: 20px;
+    width: auto;   
+    margin-top: 11px;
+ }
+ section .list-cards p{
+    width: 200px;   
+    padding: 20px;
+    margin-top: -20px;
+ }
+
+ /* fim da list-plan*/
+ 
+ .list-buy{     
+   background-color: rgb(233, 233, 233);
+   height: 1127px;
+ }
+ .list-buy .lista-assinatura{
+   text-align: center;
+   align-items: center;
+   padding: 20px;
+ }
+ .list-buy .lista-assinatura h1{
+   padding: 15px;
+   font-size: 38px;
+   margin-top: 50px;
+ }
+ .list-buy .lista-assinatura ul{
+   display: flex;
+   padding: 20px;
+   justify-content: center;
+   text-decoration: none;
+ }
+ .list-buy .lista-assinatura li{    
+   margin-right: 5px;
+   text-decoration: underline;
+ }
+ .list-buy .lista-assinatura ul li img{    
+   width: 29px; 
+   height: 19px;       
+ }
+ .list-buy .lista-compra{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   padding: 20px 20%;    
+   margin: 10px;   
+ }
+ .list-buy .lista-compra .benefits li img{
+   width: 25px;
+   height: fit-content;
+   text-align: left;    
+ } 
+ .list-buy .lista-compra .card{
+   width: fit-content;   
+   padding: 15px;
+   background-color: white;
+   border-radius: 10px;    
+   box-shadow: 0px 0px 8px rgb(0, 0, 0, 30%);
+   margin-right: 15px;
+   text-align: left;   
+   display: flex;
+   gap: 20px;
+   flex-direction: column;
+ }
+ .list-buy .lista-compra .card .span-white{   
+   padding: 5px;    
+   background-color: rgb(22, 126, 211);
+   color: white;
+   border-radius: 5px;   
+   font-weight: bold;    
+   width: fit-content;
+   font-size: 15px;
+ }
+ .list-buy .lista-compra .card .header{
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+   min-height: 172px;
+   width: auto;
+ }
+ .list-buy .lista-compra .card .span-blue{      
+   padding: 5px;    
+   background-color: white;
+   color: rgb(22, 126, 211);
+   border-radius: 5px;   
+   font-weight: bold;
+   border: 1px solid rgb(22, 126, 211);
+   font-size: 15px;
+   width: fit-content;
+ } 
+ .lista-compra .divider{
+   border-bottom: 1px solid black;    
+ }
+ .lista-compra .card .benefits{    
+   padding: 5px;
+   height: 300px;
+   list-style: none; 
+   display: flex;
+   gap: 10px;    
+   flex-direction: column;
+ }
+ .lista-compra .card .benefits li{        
+   display: flex;    
+ }
+ .lista-compra .card .benefits .action{        
+   display: flex;    
+   flex-direction: column;
+   gap: 30px;   
+ }
+ .lista-compra .card .actions .black-button{
+   width: 100%;
+   background-color: rgb(24, 22, 22);
+   border: 2px solid black;
+   padding: 16px;     
+   color: white;
+   font-weight: bold;   
+   border-radius: 110px;      
+ }
+ .lista-compra .card .actions .black-button:hover{
+   cursor: pointer;     
+   transform: scale(1.05);
+   background-color: black;    
+} 
+ .lista-compra .card .actions p{
+  color: dimgrey;
+  font-size: 09pt;
+  margin: 20px 0px;
+  text-align: justify;
+} 
+ .lista-compra .card .actions p .termos{
+  color: dimgrey;
+  font-size: 09pt; 
+  padding: 0px 1px;    
+} 
+
+ /* list-buy end*/
+
+ footer {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding-top: 70px;
+  max-height: 530px;
+ }
+ footer .section-early{
+  display: flex;  
+  padding: 20px 20%;
+  gap: 30px;
+ }
+ footer .footer-img img{
+  width: 125px; 
+  height: 40px;
+  cursor: pointer;
+ }
+ footer .section-early .link-footer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 80px;
+  padding-top: 30px;
+  padding-left: 30px;
+ }
+ footer .section-early .link-footer .link-emp{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 15px;
+ }
+ footer .section-early .link-footer .link-emp h5{
+  color: rgb(170, 158, 158);
+  font-weight: bold;
+ }
+ footer .section-early .link-footer .link-image{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;  
+  width: 30px; 
+  border-radius: 50%;
+  padding-left: 35px;
+ }
+ footer .section-early .link-footer .link-image img{  
+  background-color: rgb(170, 158, 158);
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+ }
+ footer .section-early .link-footer .link-image img:hover{  
+  background-color: rgb(50, 190, 7);  
+ }
+ footer .section-final{  
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20%;
+ }
+ footer .section-final .link-final{  
+  display: flex;
+  gap: 30px;
+  font-size: 12px;  
+  padding: 80px 0px 50px;
+ }
+ footer .section-final .link-final a{  
+  color: rgb(170, 158, 158);
+ }
+ footer .section-final .link-final a:hover{  
+  color: rgb(50, 190, 7);
+ }
+ footer .section-final .logo-final{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding-top: 65px;
+   font-size: 12px;
+   text-align: right;
+   color: rgb(170, 158, 158);
+ }
+ footer .section-final .logo-final a{  
+   color: rgb(170, 158, 158);
+ }
+ footer .section-final .logo-final a:hover{  
+   color: rgb(50, 190, 7);
+ }
+ footer .section-final .logo-final img{  
+  background-color: rgb(170, 158, 158);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+ }
+ 
