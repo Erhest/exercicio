@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imc</title>
+</head>
+<body>
+    <h1>IMC</h1>
+
+    <script>
+        var altura = prompt("Coloque sua altura: ");
+        var peso = prompt("Coloque seu peso: ");
+        
+        var imc;
+
+        console.log("A altura colocada foi: " + altura);
+        console.log("O peso colocado foi: " + peso);
+
+        imc = Number.parseFloat(peso) / (Number.parseFloat(altura) * Number.parseFloat(altura))
+
+        console.log("Seu IMC é de: " + Number.parseFloat(imc))
+
+    </script>
+    
+</body>
+</html>

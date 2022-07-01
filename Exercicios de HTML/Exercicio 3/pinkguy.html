@@ -35,7 +35,7 @@
 
             </header>           
 
-            <h2 id="pink guy">Pink Guy</h2>
+            <h2 id="pinkguy">Pink Guy</h2>
                 <div class="img-quadrada">
                     <img src="imagem.html/images.jpg" alt="">
                 </div>
@@ -251,5 +251,29 @@
     <footer class="footer-section">         
         <section>https://filthy-frank.fandom.com/wiki/Pink_Guy</section> 
     </footer>   
+
+
+    <script>
+        var titulo = document.getElementById('pinkguy') //parenteses não é preciso por no document.getElement
+        console.log(titulo.innerText)
+
+        var pictures = (document.getElementsByTagName('img'))
+        console.log('Quantidade de imagens é de: ' + pictures.length)
+
+        var textQ = (document.getElementsByTagName('p'))
+        console.log('Quantidade de parágrafos é de: ' + textQ.length)
+
+        var rodape = (document.getElementsByClassName('footer-section'))
+        console.log('O rodapé é: ' + rodape[0].innerText)
+
+    </script>
+
+
+
+
+
+
+
+
 </body>
 </html>
